@@ -187,17 +187,19 @@ body{
         margin-top:10px ;
         margin-bottom: 10px;
         }
-        .letters_D{
+        .letters_D{     
             display: flex;
             flex-direction: column;
             overflow-y: scroll;
+      
         }
         .letters_D::-webkit-scrollbar {
             display: none;
           }
         .KOOLI,.SLAMA{
-            height: 80vh;
+            height: 50vh;
             width: auto;
             padding: 20px;
         }
+        .letters{   overflow-y: scroll;}
   }
