@@ -77,16 +77,16 @@ overflow: scroll;
 
     padding: 7%;
 }
-.head,.link{
+.head,.link1,.link2{
     font-size: large;
     font-weight: bold;
     font-family: myFirstFont; 
 }
-.link{
+.link1,.link2{
     text-decoration: underline;
     cursor: pointer;
 }
-.link:hover{
+.link1:hover,.link2:hover{
     color: rgb(104, 104, 104);
     transition:all 0.5s;
 }
@@ -98,6 +98,12 @@ overflow: scroll;
 .img{
     width: 90%;
     height: auto;
+}
+
+.KOOLI,.SLAMA{
+    height: 80vh;
+    width: auto;
+    padding: 10px;
 }
 
 
@@ -113,6 +119,13 @@ overflow: scroll;
     justify-content: center;
     display: none;
   transition: all 1s;
+}
+.letters_D{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 .attest{
     display: flex;
@@ -173,5 +186,18 @@ body{
         overflow: scroll;
         margin-top:10px ;
         margin-bottom: 10px;
+        }
+        .letters_D{
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+        }
+        .letters_D::-webkit-scrollbar {
+            display: none;
+          }
+        .KOOLI,.SLAMA{
+            height: 80vh;
+            width: auto;
+            padding: 20px;
         }
   }
