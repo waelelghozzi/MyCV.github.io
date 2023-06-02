@@ -125,3 +125,32 @@ overflow: scroll;
     height: 80vh;
     width: auto;
 }
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    /* Add your CSS rules here for smaller screens */
+body{
+    padding-right: 10px;
+}
+    .container {
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+      }
+    .cell1, .cell2, .cell3 , .cell4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .cell1{
+        padding: 20px;
+    }
+    .img{
+        width: 80%;
+        height: auto;
+    }
+  }
