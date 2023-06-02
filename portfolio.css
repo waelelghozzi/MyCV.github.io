@@ -85,6 +85,11 @@ overflow: scroll;
 }
 .link{
     text-decoration: underline;
+    cursor: pointer;
+}
+.link:hover{
+    color: rgb(104, 104, 104);
+    transition:all 0.5s;
 }
 .content{
     margin-top:5%;
