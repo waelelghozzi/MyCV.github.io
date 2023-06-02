@@ -1,0 +1,79 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Bosch.otf);
+  }
+  @font-face {
+    font-family: FF2;
+    src: url(ProductSansRegular.ttf);
+  }
+  
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1eb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:FF2 ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.cell1, .cell2, .cell3 , .cell4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.tete{
+    font-size: 100px;
+    font-family: myFirstFont;   
+    padding-bottom: 10%;
+}.welcome{
+    font-size: 50px;
+    font-family: myFirstFont;
+    padding-bottom: 2%;
+}
+.cell2{
+    align-items: center;
+}
+.col1,.col2,.col3,.col4{
+height: 50%;
+display: flex;
+flex-direction: column;
+}
+.col1{
+    background-color: #e4e4e4;
+}
+.col4{
+    background-color: #b2cbca;
+}
+.colfill{
+
+    padding: 7%;
+}
+.head{
+    font-size: large;
+    font-weight: bold;
+    font-family: myFirstFont; 
+}
+.content{
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: rgb(99, 99, 99);
+}
+.img{
+    width: 90%;
+    height: auto;
+}
