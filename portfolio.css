@@ -1,10 +1,10 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(Bosch.otf);
+    src: url(fonts/Bosch.otf);
   }
   @font-face {
     font-family: FF2;
-    src: url(ProductSansRegular.ttf);
+    src: url(fonts/ProductSansRegular.ttf);
   }
   
 
